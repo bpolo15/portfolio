@@ -9,7 +9,7 @@ font-weight: 1000px;
     font-weight: 1000;   
 }
 body{
-    background-color: hsl(30, 9%, 96%);
+    background-color: rgb(246, 245, 244);
 }
 .container{
     font-family: 'Slabo 27px';
@@ -38,6 +38,7 @@ h1{
   font-family: 'Slabo 27px';
   font-size: 30px;
   color: rgb(2, 2, 51);
+  background-color: white;
 }
 #main{
     display: block;
