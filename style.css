@@ -49,10 +49,29 @@ h1{
 h2{
     padding-left: 20px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1003px){
     #photos{
         width: 300px;
         height: 300px;
     }
+    #label{
+    background-color: rgb(2, 2, 51);
+    color: rgb(246, 245, 244);
+    text-align: center;
+    width: 300px;
+    position: relative;
+    margin-top: -50px;
+    
+        
     }
+    }
+@media screen and (min-width: 1004px){
+#label{
+    background-color: rgb(2, 2, 51);
+    color: rgb(246, 245, 244);
+    text-align: center;
+    width: 450px;
+    position: relative;
+    margin-top: -50px;
+    }   
 }
