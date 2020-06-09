@@ -1,10 +1,99 @@
-#row1text{
+.jumbotron{
+  text-align: center;  
+}
+.name{
+  font-size: 75px;
+}
+#card1{
+  padding: 25px;
+  text-align: center;
+  /* font-size: 20px; */
   position: relative;
-  float: right;
-  
+  margin-left: -50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  opacity: 0.75;
 }
-.box1{
-    border: green;
-    width: 200px;
-    height: 200px;
+#photo2{
+  position: relative;
+  margin-left: -30px;
+  /* margin-right: 50px;
+  margin-top: 25px; */
+  z-index: -10;
 }
+#card2{
+  padding: 25px;
+  position: relative;
+  margin-left: 50px;
+  margin-right: -25px;
+  margin-top: 30px;
+  opacity: 0.75;
+}
+#card3{
+  padding: 35px;
+  text-align: center;
+  /* font-size: 20px; */
+  position: relative;
+  margin-left: -50px;
+  margin-right: 50px;
+  margin-top: 35px;
+  opacity: 0.75;
+}
+#hidden{
+  display: none;
+}
+@media screen and (max-width: 1200px){
+  #photo2{
+    position: relative;
+    margin-left: 0px;
+    z-index: -10;
+  }
+  #card1{
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+    height: 346px;
+    /* font-size: 14px; */
+    
+  }
+  #card2{
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+    height: 346px;
+    padding: 0;
+    
+  }
+  #card3{
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+    height: 346px;
+  }
+
+  }
+  @media screen and (max-width: 991px){
+    #card1{
+      padding: 25px;
+      text-align: center;
+    }
+    #card2{
+      padding: 25px;
+      text-align: center;
+      float: right
+    }
+   
+  }
