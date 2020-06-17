@@ -52,7 +52,7 @@ body{
 #photo4{
   margin-right: 100px;
   margin-bottom: 25px;
-  opacity: 0.75;
+  /* opacity: 0.75; */
 
 }
 #card4{
@@ -66,7 +66,12 @@ body{
 }
 #photo5{
   margin-bottom: 25px;
-  opacity: 0.75;
+  /* opacity: 0.75; */
+}
+#photo6{
+  margin-top: 75px;
+  margin-bottom: 25px;
+  /* opacity: 0.75; */
 }
 #card5{
   padding: 25px;
@@ -160,6 +165,9 @@ footer{
     }
     #photo4{
       margin: 0 auto;
+    }
+    #photo6{
+     margin: 0;
     }
    
   }
